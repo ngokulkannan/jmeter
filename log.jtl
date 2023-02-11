@@ -1,3 +1,0 @@
-timeStamp,elapsed,label,responseCode,responseMessage,threadName,dataType,success,failureMessage,bytes,sentBytes,grpThreads,allThreads,URL,Latency,IdleTime,Connect
-1676115100596,2757,ZF_Launch,200,OK,ZakatFund_Submit_Scenario1 1-1,text,true,,42908,508,1,1,https://www.zakatfund.gov.ae/ZfpStressTest/web/ZakatRequest/requestanappointment.aspx,2636,0,1186
-1676115103389,1016,ZF_Submit,200,OK,ZakatFund_Submit_Scenario1 1-1,text,true,,10618,17126,1,1,https://www.zakatfund.gov.ae/ZfpStressTest/web/ZakatRequest/requestanappointment.aspx,1015,0,0
