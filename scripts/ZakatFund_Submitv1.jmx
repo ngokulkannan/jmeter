@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <jmeterTestPlan version="1.2" properties="5.0" jmeter="5.5">
   <hashTree>
-    <TestPlan guiclass="TestPlanGui" testclass="TestPlan" testname="Test Plan" enabled="true">
+    <TestPlan guiclass="TestPlanGui" testclass="TestPlan" testname="ZakatFund" enabled="true">
       <stringProp name="TestPlan.comments"></stringProp>
       <boolProp name="TestPlan.functional_mode">false</boolProp>
       <boolProp name="TestPlan.tearDown_on_shutdown">true</boolProp>
@@ -10,7 +10,7 @@
         <collectionProp name="Arguments.arguments">
           <elementProp name="TT" elementType="Argument">
             <stringProp name="Argument.name">TT</stringProp>
-            <stringProp name="Argument.value">${__P(TT,1000)}</stringProp>
+            <stringProp name="Argument.value">${__P(TT,500)}</stringProp>
             <stringProp name="Argument.metadata">=</stringProp>
           </elementProp>
           <elementProp name="HOST" elementType="Argument">
@@ -20,7 +20,7 @@
           </elementProp>
           <elementProp name="PACING" elementType="Argument">
             <stringProp name="Argument.name">PACING</stringProp>
-            <stringProp name="Argument.value">${__P(PACING,2000)}</stringProp>
+            <stringProp name="Argument.value">${__P(PACING,500)}</stringProp>
             <stringProp name="Argument.metadata">=</stringProp>
           </elementProp>
         </collectionProp>
@@ -574,14 +574,14 @@
       </hashTree>
       <kg.apc.jmeter.threads.SteppingThreadGroup guiclass="kg.apc.jmeter.threads.SteppingThreadGroupGui" testclass="kg.apc.jmeter.threads.SteppingThreadGroup" testname="Scenario1" enabled="true">
         <stringProp name="ThreadGroup.on_sample_error">continue</stringProp>
-        <stringProp name="ThreadGroup.num_threads">10</stringProp>
+        <stringProp name="ThreadGroup.num_threads">84</stringProp>
         <stringProp name="Threads initial delay">10</stringProp>
-        <stringProp name="Start users count">1</stringProp>
+        <stringProp name="Start users count">10</stringProp>
         <stringProp name="Start users count burst">1</stringProp>
-        <stringProp name="Start users period">10</stringProp>
-        <stringProp name="Stop users count">5</stringProp>
+        <stringProp name="Start users period">60</stringProp>
+        <stringProp name="Stop users count">1</stringProp>
         <stringProp name="Stop users period">1</stringProp>
-        <stringProp name="flighttime">60</stringProp>
+        <stringProp name="flighttime">300</stringProp>
         <stringProp name="rampUp">5</stringProp>
         <elementProp name="ThreadGroup.main_controller" elementType="LoopController" guiclass="LoopControlPanel" testclass="LoopController" testname="Loop Controller" enabled="true">
           <boolProp name="LoopController.continue_forever">false</boolProp>
