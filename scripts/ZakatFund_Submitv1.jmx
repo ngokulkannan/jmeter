@@ -592,7 +592,7 @@
         <ModuleController guiclass="ModuleControllerGui" testclass="ModuleController" testname="Module Controller" enabled="true">
           <collectionProp name="ModuleController.node_path">
             <stringProp name="764597751">Test Plan</stringProp>
-            <stringProp name="764597751">Test Plan</stringProp>
+            <stringProp name="1151736988">ZakatFund</stringProp>
             <stringProp name="2020271419">ZakatFund_Submit</stringProp>
           </collectionProp>
         </ModuleController>
